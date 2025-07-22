@@ -1,5 +1,5 @@
 body {
-  background-image: url(/img/clove-valorant.gif);
+  background-image: url(/img/clove-valorant.png);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -15,6 +15,7 @@ body {
   padding: 20px;
   width: 350px;
   height: 300px;
+  opacity: 0.5;
 }
 
 .header {

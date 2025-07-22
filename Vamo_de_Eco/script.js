@@ -44,10 +44,10 @@ function renderCalendar() {
 }
 
   function showDateDifference() {
-  const targetDate = new Date(2025, 6, 17); // Julho é mês 6 (zero-based)
+  const targetDate = new Date(2025, 6, 17); 
   const today = new Date();
 
-  // Zerar horas para evitar diferenças parciais
+  
   targetDate.setHours(0, 0, 0, 0);
   today.setHours(0, 0, 0, 0);
 
