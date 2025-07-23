@@ -13,10 +13,20 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   padding: 20px;
-  width: 350px;
-  height: 300px;
-  opacity: 0.5;
+  width: 520px;
+  max-width: 90vw;
+  overflow: scroll;
+  box-sizing: border-box;
+  opacity: 0.8;
 }
+
+.dias {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
 
 .header {
   display: flex;
@@ -76,3 +86,32 @@ body {
   color: white;
 }
 
+
+
+.day-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.day-container input[type="checkbox"] {
+  margin-top: 5px;
+}
+
+
+#check-unmarked {
+  margin: 20px auto 0;
+  display: block;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#check-unmarked:hover {
+  background-color: #218838;
+}
